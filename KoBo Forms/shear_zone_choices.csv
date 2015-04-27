@@ -1,0 +1,40 @@
+label,name,list name
+strike-slip,strike_slip,ku2gk10
+unknown,unknown,ku2gk10
+dip-slip,dip_slip,ku2gk10
+oblique,oblique,ku2gk10
+not specified,not_specified,ku2gk10
+dextral,dextral,ww1yf84
+sinistral,sinistral,ww1yf84
+unknown,unknown,ww1yf84
+not specified,not_specified,ww1yf84
+reverse,reverse,dr9xt23
+normal,normal,dr9xt23
+unknown,unknown,dr9xt23
+not specified,not_specified,dr9xt23
+dextral reverse,dextral_reverse,os1df47
+dextral normal,dextral_normal,os1df47
+sinistral reverse,sinistral_reverse,os1df47
+sinistral normal,sinistral_normal,os1df47
+unknown,unknown,os1df47
+not specified,not_specified,os1df47
+offset,offset,kt81l04
+directional indicators,directional_indicator,kt81l04
+not specified,not_specified,kt81l04
+bedding,bedding,uh1mv47
+intrusion,intrusion,uh1mv47
+metamorphic foliation,metamorphic_foliation,uh1mv47
+compositional banding,compositional_banding,uh1mv47
+geomorphic feature,geomorphic_feature,uh1mv47
+other marker,other_marker,uh1mv47
+not specified,not_specified,uh1mv47
+piercing point,piercing_point,uh1mv47
+mineral lineation,mineral_lineat,xd2fb20
+feature asymmetry,shear_sense,xd2fb20
+not specified,not_specified,xd2fb20
+This is a list of rock units / descriptions user has made,this_is_a_list,fq8rt60
+More in the list of rock units / descriptions user has made,more_in_the_li,fq8rt60
+not specified,not_specified,fq8rt60
+This is a list of rock units / descriptions user has made,this_is_a_list,kw6tp41
+More in the list of rock units / descriptions user has made,more_in_the_li,kw6tp41
+not specified,not_specified,kw6tp41

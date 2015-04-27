@@ -1,0 +1,13 @@
+name,type,label,required,default,relevant,hint
+contact_type,select_one lx9ax28,Contact Type:,true,not specified,,
+depositional_contact_type,select_one bi4sw60,Depositional Contact Type:,true,not specified,${contact_type} = 'depositional',
+unconformity_type,select_one dq27t21,Unconformity Type:,true,not specified,${depositional_contact_type} = 'unconformity',
+intruding_feature_is,select_one cj4zw02,intruding feature is:,true,not specified,${contact_type} = 'intrusive',What type of feature is intruding?
+metamorphic_contact_type,select_one pb5wo52,Metamorphic Contact Type:,true,not specified,${contact_type} = 'metamorphic',
+metamorphic_contact_other_det,note,Metamorphic Contact (other detail),false,,${metamorphic_contact_type} = 'other',
+marker_layer_details,note,Marker Layer details:,true,no details specified.,${contact_type} = 'marker_layer',Notes about the marker layer
+contact_character,select_one vv9tu90,Contact Character:,true,,,
+button_to_link_to_existing_ori,text,Button to link to existing orientation,true,,,
+button_to_link_to_new_orientat,text,Button to link to new orientatoin,true,,,
+start,start,,,,,
+end,end,,,,,

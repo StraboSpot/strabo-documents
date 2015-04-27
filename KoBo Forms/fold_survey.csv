@@ -1,0 +1,11 @@
+name,type,label,required,default,hint
+approx_amplitude,select_one zq9sr00,Approximate amplitude scale of related folding?,true,not specified,
+fold_geometry,select_one wg6ry31,Dominant Fold Geometry:,true,not specified,What is the shape of the fold when looking down-plunge?
+fold_shape,select_one fa6tb91,Dominant Fold Shape,true,not specified,
+fold_attitude,select_one iq4bx64,Dominant Fold Attitude:,true,not specified,
+tightness,select_one ao3ks66,Tightness / Interlimb angle,true,,
+vergence,select_one iu9ug45,Vergence?,true,not specified,Approximate vergence direction from fold asymmetry or other...
+button_to_link_to_existing_ori,text,Button to link to existing orientation,true,,
+button_to_link_to_new_orientat,text,Button to link to new orientatoin,true,,
+start,start,,,,
+end,end,,,,

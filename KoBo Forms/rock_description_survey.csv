@@ -1,0 +1,8 @@
+name,type,label,required,default
+unit_name,text,Map Unit Name:,false,N/A
+unit_abbreviation,text,Unit Label (abbreviation),true,N/A
+rock_type,select_one rm0pv08,Rock Type:,false,not specified
+description,note,Description / Lithology:,false,
+age_ma,integer,Age (Ma):,false,
+start,start,,,
+end,end,,,

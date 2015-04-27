@@ -1,0 +1,33 @@
+label,name,order,list name
+depositional,depositional,0,lx9ax28
+intrusive,intrusive,1,lx9ax28
+metamorphic,metamorphic,2,lx9ax28
+marker layer,marker_layer,3,lx9ax28
+unknown,unknown,4,lx9ax28
+edge of mapping,edge_of_mappin,5,lx9ax28
+other,other,6,lx9ax28
+stratigraphic,stratigraphic,0,bi4sw60
+alluvial,alluvial,1,bi4sw60
+unconformity,unconformity,2,bi4sw60
+volcanic,volcanic,3,bi4sw60
+unknown,unknown,4,bi4sw60
+angular unconformity,angular_unconf,,dq27t21
+nonconformity,nonconformity,,dq27t21
+disconformity,disconformity,,dq27t21
+unknown,unknown,,dq27t21
+dike (cuts fabric),dike,0,cj4zw02
+sill (conforms to fabric),sill,1,cj4zw02
+vein,vein,2,cj4zw02
+injectite,injectite,3,cj4zw02
+pluton,pluton,4,cj4zw02
+migmatite,migmatite,,cj4zw02
+unknown,unknown,,cj4zw02
+between two different metamorphic rocks,between_two_di,0,pb5wo52
+isograd,isograd,2,pb5wo52
+other,other,,pb5wo52
+sharp,sharp,0,vv9tu90
+gradational,gradational,1,vv9tu90
+diffuse,diffuse,2,vv9tu90
+chilled,chilled,3,vv9tu90
+brecciated,brecciated,4,vv9tu90
+sheared,sheared,5,vv9tu90
