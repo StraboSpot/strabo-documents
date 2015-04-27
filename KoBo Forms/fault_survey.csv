@@ -1,22 +1,20 @@
-name,type,label,hint,required,default,constraint,relevant
-thickness_m,integer,Thickness (m):,What is the thickness of this fault in meters?,true,not_specified,. > 0,
-strike_of_fault,integer,Strike of fault:,,true,,. <= 360 and . >= 0,
-dip_of_fault,integer,Dip of fault:,,true,,. >= 0 and . <= 90,
-fault_geometry,select_one ku2gk10,Type of fault:,,true,not_specified,,
-strike_slip_movement,select_one ww1yf84,Strike-Slip Movement:,,true,not_specified,,${fault_geometry} = 'strike_slip'
-dip_slip_movement,select_one dr9xt23,Dip-Slip Movement:,,true,not_specified,,${fault_geometry} = 'dip_slip'
-oblique_movement,select_one os1df47,Oblique Movement:,,true,not_specified,,${fault_geometry} = 'oblique'
-movement_justification,select_one kt81l04,Movement Justification:,,true,not_specified,,${strike_slip_movement} = 'dextral' or ${strike_slip_movement} = 'sinistral' or ${dip_slip_movement} = 'reverse' or ${dip_slip_movement} = 'normal' or ${oblique_movement} = 'dextral_reverse' or ${oblique_movement} = 'dextral_normal' or ${oblique_movement} = 'sinistral_reverse' or ${oblique_movement} = 'sinistral_normal'
-offset_markers,select_multiple uh1mv47,Offset Markers:,,true,not_specified,,${movement_justification} = 'offset'
-marker_detail,text,Marker Detail:,,true,not specified,,"selected(${offset_markers}, 'geomorphic_feature') or selected(${offset_markers}, 'other_marker')"
-directional_indicators,select_multiple xd2fb20,Directional Indicators:,,true,not_specified,,${movement_justification} = 'directional_indicator'
-feature_asymmetry_detail,text,Asymmetry Details:,"porphyroblast/clast, folds, mica fish, etc",true,,,"selected(${directional_indicators}, 'shear_sense')"
-piercing_point_detail,text,Piercing Point Detail,Specify piercing point.,true,,,"selected(${directional_indicators}, 'piercing_point')"
-mineral_lineation_detail,text,Mineral Lineation Detail,What is the mineral?,false,,,"selected(${directional_indicators}, 'mineral_lineat')"
-juxtaposes_rocks,select_multiple fq8rt60,Juxtaposes __________ rocks....,,true,not_specified,,
-against_rocks,select_multiple kw6tp41,... against ________ rocks.,,true,not_specified,,
-button_to_link_to_existing_ori,text,Button to link to existing orientation,,true,,,
-button_to_link_to_new_orientat,text,Button to link to new orientatoin,,true,,,
-inferred_age_of_faulting_ma,integer,Inferred age (Ma) of faulting:,,false,,,
-start,start,,,,,,
-end,end,,,,,,
+name,type,label,hint,required,default,constraint,constraint_message,relevant
+thickness_m,integer,Thickness (m),What is the thickness of this fault in meters?,true,not_specified,. >= 0,Thickness must be greater than 0.,
+strike_of_fault,integer,Strike of Fault,,true,,. <= 360 and . >= 0,Strike must be between 0-360.,
+dip_of_fault,integer,Dip of Fault,,true,,. >= 0 and . <= 90,Dip must be between 0-90.,
+fault_geometry,select_one ku2gk10,Type of Fault,,true,not_specified,,,
+strike_slip_movement,select_one ww1yf84,Strike-Slip Movement,,true,not_specified,,,${fault_geometry} = 'strike_slip'
+dip_slip_movement,select_one dr9xt23,Dip-Slip Movement,,true,not_specified,,,${fault_geometry} = 'dip_slip'
+oblique_movement,select_one os1df47,Oblique Movement,,true,not_specified,,,${fault_geometry} = 'oblique'
+movement_justification,select_one kt81l04,Movement Justification,,true,not_specified,,,${strike_slip_movement} = 'dextral' or ${strike_slip_movement} = 'sinistral' or ${dip_slip_movement} = 'reverse' or ${dip_slip_movement} = 'normal' or ${oblique_movement} = 'dextral_reverse' or ${oblique_movement} = 'dextral_normal' or ${oblique_movement} = 'sinistral_reverse' or ${oblique_movement} = 'sinistral_normal'
+offset_markers,select_multiple uh1mv47,Offset Markers,,true,not_specified,,,${movement_justification} = 'offset'
+marker_detail,text,Marker Detail,,true,not specified,,,"selected(${offset_markers}, 'geomorphic_feature') or selected(${offset_markers}, 'other_marker')"
+directional_indicators,select_multiple xd2fb20,Directional Indicators,,true,not_specified,,,${movement_justification} = 'directional_indicator'
+feature_asymmetry_detail,text,Asymmetry Details,"porphyroblast/clast, folds, mica fish, etc",true,,,,"selected(${directional_indicators}, 'shear_sense')"
+piercing_point_detail,text,Piercing Point Detail,Specify piercing point.,true,,,,"selected(${directional_indicators}, 'piercing_point')"
+mineral_lineation_detail,text,Mineral Lineation Detail,What is the mineral?,false,,,,"selected(${directional_indicators}, 'mineral_lineat')"
+juxtaposes_rocks,select_multiple fq8rt60,Juxtaposes __________ rocks....,,true,not_specified,,,
+against_rocks,select_multiple kw6tp41,... against ________ rocks.,,true,not_specified,,,
+inferred_age_of_faulting_ma,integer,Inferred Age (Ma) of Faulting,,false,,,,
+start,start,,,,,,,
+end,end,,,,,,,

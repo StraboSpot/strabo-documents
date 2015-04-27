@@ -16,24 +16,17 @@ direction,direction,13,ll25x57
 vector,vector,14,ll25x57
 striated surface,striated_surface,15,ll25x57
 fold limb,fold_limb,16,ll25x57
-other / new,other_new,,ll25x57
+other,other,,ll25x57
 contact,contact,,ll25x57
 plane,plane,,du3mh76
 line,line,,du3mh76
-Yes,yes,,pk6nu99
-Yes,yes,,jt5sj80
-Yes,yes,,qe5jp53
-Yes,yes,,wa8up41
-the fault description/form should open,fault_desc,,oe1jo33
-the contact description/form should open,contact_desc,,yf8xk95
-the fold description/form should open,fold_desc,,ai64o12
-the shear zone description/form should open,shear_zone_des,,bs7tp75
 upright,upright,,to1en66
 overturned,overturned,,to1en66
 vertical,vertical,,to1en66
 unknown,unknown,,to1en66
 not specified,not_specified,,to1en66
 Yes,yes,,kn36u14
+No,no,,kn36u14
 anticline,anticline,,oa9ot58
 monocline,monocline,,oa9ot58
 antiformal syncline,antiformal_syn,,oa9ot58
@@ -55,11 +48,11 @@ not specified,not_specified,,eu4ay01
 accurate,accurate,,gl2mf38
 approximate,approximate,,gl2mf38
 irregular,irregular,,gl2mf38
-1,one,,xn9nf56
-2,two,,xn9nf56
-3,three,,xn9nf56
-4,four,,xn9nf56
-5,five,,xn9nf56
+1,1,,xn9nf56
+2,2,,xn9nf56
+3,3,,xn9nf56
+4,4,,xn9nf56
+5,5,,xn9nf56
 solid-state,solid_state,0,vn7df87
 magmatic,magmatic,1,vn7df87
 migmatitic,migmatitic,2,vn7df87

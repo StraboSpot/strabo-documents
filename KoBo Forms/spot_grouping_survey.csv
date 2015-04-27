@@ -1,11 +1,9 @@
-name,type,label,required,hint,default,relevant
-group_name,text,Group Label:,true,,,
-group_relationship,select_multiple xn4xv87,What do elements of this group have in common?,true,How are these data similar?,not specified,
-larger_structure_is_a,select_one lr0jp76,Larger structure is a:,true,"(e.g., fold, fault, shear zone, intrusive body, etc.)",not specified,
-link_this_specific_feature,select_one so9zn66,Link this group to a specific feature?,false,Is there an existing spot for the larger feature?,not specified,"selected(${group_relationship}, 'larger_structu')"
-age_details,text,Age details:,true,Do you know the age?,not specified,"selected(${group_relationship}, 'age')"
-new_similarity_for_grouping,text,Define new similarity for grouping:,true,How are these data similar that they belong in a group together?,not specified,"selected(${group_relationship}, 'new')"
-notes_comments_about_the_gro,note,Notes / Comments about the group:,false,,,
-group_members,select_multiple ab1lh90,Group Members,true,,,
+name,type,label,required,hint,relevant,default
+group_name,text,Group Label,true,,,
+group_relationship,select_multiple xn4xv87,What do elements of this group have in common?,true,How are these data similar?,,
+larger_structure_is_a,select_one lr0jp76,Larger Structure is a,true,"(e.g., fold, fault, shear zone, intrusive body, etc.)",,
+age_details,text,Age Details,true,Do you know the age?,"selected(${group_relationship}, 'age')",not specified
+new_similarity_for_grouping,text,Define New Similarity for Grouping,true,How are these data similar that they belong in a group together?,"selected(${group_relationship}, 'new')",not specified
+group_notes,note,Notes / Comments About the Group,false,,,
 start,start,,,,,
 end,end,,,,,
