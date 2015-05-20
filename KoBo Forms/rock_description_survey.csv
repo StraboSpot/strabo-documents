@@ -1,8 +1,31 @@
-name,type,label,required,default
-unit_name,text,Map Unit Name,false,N/A
-unit_abbreviation,text,Unit Label (abbreviation),true,N/A
-rock_type,select_one rm0pv08,Rock Type,false,
-description,note,Description / Lithology,false,
-age_ma,integer,Age (Ma),false,
-start,start,,,
-end,end,,,
+name,type,label,required,appearance,relevant
+unit_label_abbreviation,text,Unit Label (abbreviation),false,,
+map_unit_name,text,Map Unit Name,false,,
+rock_type,select_one rm0pv08,Rock Type,false,horizontal,
+sediment_type,select_one ej6zw88,Sediment Type,false,horizontal,${rock_type} = 'sediment'
+other_sediment_type,text,Other Sediment Type,true,,${sediment_type} = 'other'
+sedimentary_rock_type,select_one bt4yo56,Sedimentary Rock Type,false,horizontal,${rock_type} = 'sedimentary'
+other_sedimentary_rock_type,text,Other Sedimentary Rock Type,true,,${sedimentary_rock_type} = 'other'
+igneous_rock_class,select_one nm4yc64,Igneous Rock Class,false,horizontal,${rock_type} = 'igneous'
+volcanic_rock_type,select_one gw1hp47,Volcanic Rock Type,false,horizontal,${igneous_rock_class} = 'volcanic' or ${igneous_rock_class} = 'hypabyssal'
+other_volcanic_rock_type,text,Other Volcanic Rock Type,true,,${volcanic_rock_type} = 'other'
+plutonic_rock_types,select_one pu9hj08,Plutonic Rock Types,false,horizontal,${igneous_rock_class} = 'plutonic'
+other_plutonic_rock_type,text,Other Plutonic Rock Type,true,,${plutonic_rock_types} = 'other'
+metamorphic_rock_types,select_one yg0ew35,Metamorphic Rock Types,false,,${rock_type} = 'metamorphic'
+other_metamorphic_rock_type,text,Other Metamorphic Rock Type,true,,${metamorphic_rock_types} = 'other'
+description_lithology,note,Description / Lithology,false,,
+absolute_age_of_geologic_unit_,decimal,Absolute Age of Geologic Unit (Ma),false,,
+eon,select_one fy5ep25,Eon,false,horizontal,
+phanerozoic_era,select_one vz9ao44,Phanerozoic Era,false,,${eon} = 'phanerozoic'
+proterozoic_era,select_one gr2yp07,Proterozoic Era,false,horizontal,${eon} = 'proterozoic'
+archean_era,select_one fz38a59,Archean Era,false,horizontal,${eon} = 'archean'
+cenozoic_period,select_one lb7hu27,Cenozoic Period,false,,${phanerozoic_era} = 'cenozoic'
+mesozoic_period,select_one xu87d35,Mesozoic Period,false,,${phanerozoic_era} = 'mesozoic'
+paleozoic_period,select_one vh16g23,Paleozoic Period,false,,${phanerozoic_era} = 'paleozoic'
+proterozoic_and_archean_period,select_one yx4re06,Proterozoic and Archean Period,false,horizontal,${eon} = 'proterozoic' or ${eon} = 'archean'
+quaternary_epoch,select_one vd9wt91,Quaternary Epoch,false,horizontal-compact,${cenozoic_period} = 'quaternary'
+neogene_epoch,select_one sw9pw60,Neogene Epoch,false,horizontal-compact,${cenozoic_period} = 'neogene'
+paleogene_epoch,select_one li0is11,Paleogene Epoch,false,horizontal-compact,${cenozoic_period} = 'paleogene'
+age_modifier,select_one ns6qv42,Age Modifier,false,horizontal-compact,
+start,start,,,,
+end,end,,,,
