@@ -17,20 +17,20 @@ Fault_Offset_Markers,select_multiple gs8tm04,Fault Offset Markers,true,horizonta
 offset_markers_001,select_multiple uh1mv47,Shear Zone Offset Markers,true,horizontal,${contact_type} = 'shear_zone' and ${movement_justification} = 'offset',,not_specified
 marker_detail,text,Other Offset Marker and Detail,false,multiline,${movement_justification} = 'offset',Describe marker or piercing point details,
 Offset_m,decimal,Offset (m),false,,${movement_justification} = 'offset',,
-directional_indicators,select_multiple xd2fb20,Fault Slip Directional Indicators,true,horizontal,${movement_justification} = 'directional_indicator' and ${contact_type} = 'fault',,not_specified
-Shear_Zone_Directional_indicat,select_multiple go8zy48,Shear Zone Directional indicators,true,horizontal,${contact_type} = 'shear_zone' and ${movement_justification} = 'directional_indicator',,
+directional_indicators,select_multiple xd2fb20,Fault Slip Directional Indicators,true,horizontal,${movement_justification} = 'direct_indicat' and ${contact_type} = 'fault',,not_specified
+Shear_Zone_Directional_indicat,select_multiple go8zy48,Shear Zone Directional indicators,true,horizontal,${contact_type} = 'shear_zone' and ${movement_justification} = 'direct_indicat',,
 Other_Directional_Indicator,text,Other Directional Indicator,true,,"selected(${directional_indicators}, 'other') or selected(${Shear_Zone_Directional_indicat}, 'other')",,
 Thickness_of_Fault_or_Shear_Zo,decimal,Thickness of Fault or Shear Zone (m),false,,${contact_type} = 'fault' or ${contact_type} = 'shear_zone',,
 Minimum_Age_of_Deformation_Ma,decimal,Minimum Age of Deformation (Ma),false,,${contact_type} = 'fault' or ${contact_type} = 'shear_zone',,
 Maximum_Age_of_Deformation_Ma,decimal,Maximum Age of Deformation (Ma),false,,${contact_type} = 'fault' or ${contact_type} = 'shear_zone',,
-juxtaposes_rocks,select_multiple fq8rt60,Juxtaposes __________ rocks....,false,horizontal,${contact_type} = 'fault' or ${contact_type} = 'shear_zone',,not_specified
-against_rocks,select_multiple kw6tp41,... against ________ rocks.,false,horizontal,${contact_type} = 'fault' or ${contact_type} = 'shear_zone',,not_specified
-fold_geometry,select_one wg6ry31,Dominant Fold Geometry,false,horizontal,${contact_type} = 'option_11',What is the shape of the fold when looking down-plunge?,
-fold_shape,select_one fa6tb91,Dominant Fold Shape,false,horizontal,${contact_type} = 'option_11',,
-fold_attitude,select_one iq4bx64,Dominant Fold Attitude,false,horizontal,${contact_type} = 'option_11',,
-tightness,select_one ao3ks66,Tightness / Interlimb Angle,false,horizontal,${contact_type} = 'option_11',,
-vergence,select_one iu9ug45,Vergence,false,horizontal-compact,${contact_type} = 'option_11',Approximate direction of vergence from fold asymmetry,None
-Contact_Quality,select_one wb5nf41,Contact Quality,true,horizontal,${contact_type} = 'depositional' or ${contact_type} = 'intrusive' or ${contact_type} = 'metamorphic' or ${contact_type} = 'fault' or ${contact_type} = 'shear_zone' or ${contact_type} = 'option_11' or ${contact_type} = 'unknown' or ${contact_type} = 'marker_layer',,
+juxtaposes_rocks,select_multiple fq8rt60,Juxtaposes __________ rocks in the hanging wall....,false,horizontal,${contact_type} = 'fault' or ${contact_type} = 'shear_zone',,not_specified
+against_rocks,select_multiple kw6tp41,... against ________ rocks in the footwall.,false,horizontal,${contact_type} = 'fault' or ${contact_type} = 'shear_zone',,not_specified
+fold_geometry,select_one wg6ry31,Dominant Fold Geometry,false,horizontal,${contact_type} = 'fold_trace',What is the shape of the fold when looking down-plunge?,
+fold_shape,select_one fa6tb91,Dominant Fold Shape,false,horizontal,${contact_type} = 'fold_trace',,
+fold_attitude,select_one iq4bx64,Dominant Fold Attitude,false,horizontal,${contact_type} = 'fold_trace',,
+tightness,select_one ao3ks66,Tightness / Interlimb Angle,false,horizontal,${contact_type} = 'fold_trace',,
+vergence,select_one iu9ug45,Vergence,false,horizontal-compact,${contact_type} = 'fold_trace',Approximate direction of vergence from fold asymmetry,None
+Contact_Quality,select_one wb5nf41,Contact Quality,true,horizontal,${contact_type} = 'depositional' or ${contact_type} = 'intrusive' or ${contact_type} = 'metamorphic' or ${contact_type} = 'fault' or ${contact_type} = 'shear_zone' or ${contact_type} = 'fold_trace' or ${contact_type} = 'unknown' or ${contact_type} = 'marker_layer',,
 Contact_Character,select_one rd1pp06,Contact Character,false,horizontal,${contact_type} = 'depositional' or ${contact_type} = 'intrusive' or ${contact_type} = 'metamorphic' or ${contact_type} = 'fault' or ${contact_type} = 'shear_zone',,
 start,start,,,,,,
 end,end,,,,,,

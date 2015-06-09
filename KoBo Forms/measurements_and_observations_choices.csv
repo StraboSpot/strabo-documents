@@ -10,18 +10,18 @@ irregular,irregular,gl2mf38,
 bedding,bedding,ll25x57,0
 contact,contact,ll25x57,1
 foliation,foliation,ll25x57,2
-axial planar surface,axial_planar_s,ll25x57,3
+axial planar surface,axial_planar,ll25x57,3
 fracture,fracture,ll25x57,4
 joint,joint,ll25x57,5
 fault plane,fault_plane,ll25x57,6
 shear fracture,shear_fracture,ll25x57,7
 shear zone,shear_zone,ll25x57,8
 other,other,ll25x57,9
+vein,vein,ll25x57,
 depositional,depositional,lx9ax28,0
 intrusive,intrusive,lx9ax28,1
 metamorphic,metamorphic,lx9ax28,2
 marker layer,marker_layer,lx9ax28,3
-edge of mapping,edge_of_mappin,lx9ax28,4
 unknown,unknown,lx9ax28,5
 other,other,lx9ax28,6
 stratigraphic,stratigraphic,bi4sw60,0
@@ -69,7 +69,7 @@ slatey,slatey,dr5ab45,1
 phyllitic,phyllitic,dr5ab45,2
 crenulation,crenulation,dr5ab45,3
 phacoidal (lensoid),phacoidal,dr5ab45,4
-other,other_new,dr5ab45,5
+other,other_new,dr5ab45,6
 quartz,quartz,pa42s24,
 calcite,calcite,pa42s24,
 other,other,pa42s24,
@@ -79,7 +79,7 @@ P,p,ra0iq26,
 not specified,not_specified,ku2gk10,0
 strike-slip,strike_slip,ku2gk10,1
 dip-slip,dip_slip,ku2gk10,2
-oblique,oblique,ku2gk10,3
+oblique-slip,oblique,ku2gk10,3
 not specified,not_specified,ww1yf84,0
 dextral,dextral,ww1yf84,1
 sinistral,sinistral,ww1yf84,2
@@ -96,55 +96,55 @@ sinistral,sinistral,os1df47,
 reverse,reverse,os1df47,
 normal,normal,os1df47,
 not specified,not_specified,kt81l04,0
-offset marker,offset,kt81l04,1
-directional indicators,directional_indicator,kt81l04,2
+offset marker,offset_marker,kt81l04,1
+directional indicators,direct_indicat,kt81l04,2
 not specified,not_specified,gs8tm04,
 bedding,bedding,gs8tm04,
 intrusion,intrusion,gs8tm04,
-metamorphic foliation,metamorphic_fo,gs8tm04,
-compositional banding,compositional_,gs8tm04,
-geomorphic feature,geomorphic_fea,gs8tm04,
+metamorphic foliation,foliation,gs8tm04,
+compositional banding,comp_banding,gs8tm04,
+geomorphic feature,geomorph_feat,gs8tm04,
 not specified,not_specified,td6dh37,
 bedding,bedding,td6dh37,
 intrusion,intrusion,td6dh37,
-metamorphic foliation,metamorphic_fo,td6dh37,
-compositional banding,compositional_,td6dh37,
-geomorphic feature,geomorphic_fea,td6dh37,
+metamorphic foliation,foliation,td6dh37,
+compositional banding,comp_banding,td6dh37,
+geomorphic feature,geomorph_feat,td6dh37,
 not specified,not_specified,uh1mv47,0
 bedding,bedding,uh1mv47,1
 intrusion,intrusion,uh1mv47,2
-metamorphic foliation,metamorphic_foliation,uh1mv47,3
-compositional banding,compositional_banding,uh1mv47,4
+metamorphic foliation,foliation,uh1mv47,3
+compositional banding,comp_banding,uh1mv47,4
 other marker,other_marker,uh1mv47,6
-Riedel Shear,riedel_shear,eg8eq24,
+Riedel shear,riedel_shear,eg8eq24,
 gouge fill,gouge_fill,eg8eq24,
-crescentic fractures,crescentic_fra,eg8eq24,
+crescentic fractures,cresc_fracture,eg8eq24,
 slickenfibers,slickenfibers,eg8eq24,
-oblique gouge foliation,oblique_gouge_,eg8eq24,
+oblique gouge foliation,oblique_foliat,eg8eq24,
 drag folds,drag_folds,eg8eq24,
 rotated clasts,rotated_clasts,eg8eq24,
 domino texture,domino_texture,eg8eq24,
 tension gashes,tension_gashes,eg8eq24,
-asymmetric folds,asymmetric_fol,eg8eq24,
+asymmetric folds,asymm_folds,eg8eq24,
 other,other,eg8eq24,
-Riedel Shear,riedel_shear,qr6wd52,1
+Riedel shear,riedel_shear,qr6wd52,1
 gouge fill,gouge_fill,qr6wd52,2
-crescentic fractures,crescentic_fra,qr6wd52,3
+crescentic fractures,cresc_fract,qr6wd52,3
 slickenfibers,slickenfibers,qr6wd52,4
-oblique gouge foliation,oblique_gouge_,qr6wd52,5
+oblique gouge foliation,oblique_foliat,qr6wd52,5
 drag folds,drag_folds,qr6wd52,6
 rotated clasts,rotated_clasts,qr6wd52,7
 domino texture,domino_texture,qr6wd52,8
 tension gashes,tension_gashes,qr6wd52,9
-asymmetric folds,asymmetric_fol,qr6wd52,10
+asymmetric folds,asymm_folds,qr6wd52,10
 other,other,qr6wd52,11
 oblique foliation,oblique_foliation,xd2fb20,1
 drag folds,drag_folds,xd2fb20,2
-asymmetric folds,asymmetric_folds,xd2fb20,3
+asymmetric folds,asymm_folds,xd2fb20,3
 domino texture,domino_clasts,xd2fb20,5
 rotated clasts,rotated_clasts,xd2fb20,6
-rotated porphyroblasts,rotated_porphyroblasts,xd2fb20,7
-delta porphyroclasts,delta_porphyroclasts,xd2fb20,8
+rotated porphyroblasts,rotated_porph,xd2fb20,7
+delta porphyroclasts,delta_clasts,xd2fb20,8
 S-C fabric,s_c_fabric,xd2fb20,9
 S-C' fabric,s_c__fabric,xd2fb20,10
 C-C' fabric,c_c__fabric,xd2fb20,11
@@ -152,11 +152,11 @@ mica fish,mica_fish,xd2fb20,12
 boudinage,boudinage,xd2fb20,13
 other,other,xd2fb20,14
 not specified,not_specified,fq8rt60,0
-This is a list of rock units / descriptions user has made,this_is_a_list,fq8rt60,1
-More in the list of rock units / descriptions user has made,more_in_the_li,fq8rt60,2
+This is a list of rock units / descriptions user has made,rock_unit_list,fq8rt60,1
+More in the list of rock units / descriptions user has made,more_unit_list,fq8rt60,2
 not specified,not_specified,kw6tp41,0
-This is a list of rock units / descriptions user has made,this_is_a_list,kw6tp41,1
-More in the list of rock units / descriptions user has made,more_in_the_li,kw6tp41,2
+This is a list of rock units / descriptions user has made,rock_unit_list,kw6tp41,1
+More in the list of rock units / descriptions user has made,more_unit_list,kw6tp41,2
 not specified,not_specified,of53v22,0
 S,s,of53v22,1
 C,c,of53v22,2
@@ -176,37 +176,36 @@ striations,striations,ww1bs55,
 mullions,mullions,ww1bs55,
 slickenfibers,slickenfibers,ww1bs55,
 mineral streaks,mineral_streak,ww1bs55,
-assymetric folds,assymetric_fol,ww1bs55,
+asymmetric folds,asymm_folds,ww1bs55,
 other,other,ww1bs55,
 stretching,stretching,wt9mt75,
 rodding,rodding,wt9mt75,
 boudin,boudin,wt9mt75,
 other,other,wt9mt75,
-centimeter,centimeter_sca,zq9sr00,
-meter,meter_scale,zq9sr00,
-kilometer,kilometer_scal,zq9sr00,
-syncline,syncline,wg6ry31,0
-anticline,anticline,wg6ry31,1
-synform,synform,wg6ry31,2
-antiform,antiform,wg6ry31,3
-monocline,monocline,wg6ry31,4
-s-fold,s_fold,wg6ry31,5
-z-fold,z_fold,wg6ry31,6
-m-fold,m_fold,wg6ry31,7
-sheath,sheath,wg6ry31,8
-unknown,unknown,wg6ry31,9
+Pencil cleavage,pencil_cleav,og63u88,
+centimeter,centimeter,zq9sr00,
+meter,meter,zq9sr00,
+kilometer,kilometer,zq9sr00,
+crenulation,crenulation,wg6ry31,0
+syncline,syncline,wg6ry31,1
+anticline,anticline,wg6ry31,2
+monocline,monocline,wg6ry31,3
+synform,synform,wg6ry31,4
+antiform,antiform,wg6ry31,5
+s-fold,s_fold,wg6ry31,6
+z-fold,z_fold,wg6ry31,7
+m-fold,m_fold,wg6ry31,8
+sheath,sheath,wg6ry31,9
 chevron,chevron,fa6tb91,0
 cuspate,cuspate,fa6tb91,1
 circular,circular,fa6tb91,2
 elliptical,elliptical,fa6tb91,3
-unknown,unknown,fa6tb91,
 upright,upright,iq4bx64,0
 overturned,overturned,iq4bx64,1
 vertical,vertical,iq4bx64,2
 horizontal,horizontal,iq4bx64,3
 recumbent,recumbent,iq4bx64,4
 inclined,inclined,iq4bx64,5
-unknown,unknown,iq4bx64,
 gentle   (180º –120º),gentle,ao3ks66,
 open   (120º–70º),open,ao3ks66,
 close   (70º–30º),close,ao3ks66,
@@ -220,137 +219,3 @@ South,south,iu9ug45,9
 SW,sw,iu9ug45,11
 West,west,iu9ug45,13
 NW,nw,iu9ug45,15
-igneous,igneous,rm0pv08,0
-metamorphic,metamorphic,rm0pv08,1
-sedimentary,sedimentary,rm0pv08,2
-sediment,sediment,rm0pv08,3
-alluvium,alluvium,ej6zw88,
-older alluvium,older_alluvium,ej6zw88,
-colluvium,colluvium,ej6zw88,
-lake deposit,lake_deposit,ej6zw88,
-eolian,eolian,ej6zw88,
-talus,talus,ej6zw88,
-breccia,breccia,ej6zw88,
-gravel,gravel,ej6zw88,
-sand,sand,ej6zw88,
-silt,silt,ej6zw88,
-clay,clay,ej6zw88,
-other,other,ej6zw88,
-limestone,limestone,bt4yo56,
-dolostone,dolostone,bt4yo56,
-travertine,travertine,bt4yo56,
-evaporite,evaporite,bt4yo56,
-chert,chert,bt4yo56,
-conglomerate,conglomerate,bt4yo56,
-breccia,breccia,bt4yo56,
-sandstone,sandstone,bt4yo56,
-siltstone,siltstone,bt4yo56,
-mudstone,mudstone,bt4yo56,
-shale,shale,bt4yo56,
-claystone,claystone,bt4yo56,
-coal,coal,bt4yo56,
-other,other,bt4yo56,
-volcanic,volcanic,nm4yc64,
-plutonic,plutonic,nm4yc64,
-hypabyssal,hypabyssal,nm4yc64,
-basalt,basalt,gw1hp47,0
-basaltic-andesite,basaltic_andes,gw1hp47,1
-andesite,andesite,gw1hp47,2
-latite,latite,gw1hp47,3
-dacite,dacite,gw1hp47,4
-rhyolite,rhyolite,gw1hp47,5
-tuff,tuff,gw1hp47,6
-ash-fall tuff,ash_fall_tuff,gw1hp47,7
-ash-flow tuff,ash_flow_tuff,gw1hp47,8
-vitrophyre,vitrophyre,gw1hp47,10
-trachyte,trachyte,gw1hp47,11
-trachyandesite,trachyandesite,gw1hp47,12
-tuff breccia,tuff_breccia,gw1hp47,13
-lapilli tuff,lapilli_tuff,gw1hp47,14
-other,other,gw1hp47,15
-granite,granite,pu9hj08,0
-alkali feldspar granite,alkali_feldspa,pu9hj08,1
-quartz monzonite,quartz_monzoni,pu9hj08,2
-syenite,syenite,pu9hj08,3
-granodiorite,granodiorite,pu9hj08,4
-monzonite,monzonite,pu9hj08,5
-tonalite,tonalite,pu9hj08,6
-diorite,diorite,pu9hj08,7
-gabbro,gabbro,pu9hj08,9
-anorthosite,anorthosite,pu9hj08,10
-other,other,pu9hj08,15
-low-grade,low_grade,yg0ew35,
-medium-grade,medium_grade,yg0ew35,
-high-grade,high_grade,yg0ew35,
-slate,slate,yg0ew35,
-phyllite,phyllite,yg0ew35,
-schist,schist,yg0ew35,
-gneiss,gneiss,yg0ew35,
-marble,marble,yg0ew35,
-quartzite,quartzite,yg0ew35,
-amphibolite,amphibolite,yg0ew35,
-serpentinite,serpentinite,yg0ew35,
-hornfels,hornfels,yg0ew35,
-metavolcanic,metavolcanic,yg0ew35,
-calc-silicate,calc_silicate,yg0ew35,
-mylonite,mylonite,yg0ew35,
-other,other,yg0ew35,
-Phanerozoic,phanerozoic,fy5ep25,
-Proterozoic,proterozoic,fy5ep25,
-Archean,archean,fy5ep25,
-Hadean,hadean,fy5ep25,
-Cenozoic,cenozoic,vz9ao44,
-Mesozoic,mesozoic,vz9ao44,
-Paleozoic,paleozoic,vz9ao44,
-Neoproterozoic,neoproterozoic,gr2yp07,
-Mesoproterozoic,mesoproterozoi,gr2yp07,
-Paleoproterozoic,paleoproterozo,gr2yp07,
-Neoarchean,neoarchean,fz38a59,
-Mesoarchean,mesoarchean,fz38a59,
-Paleoarchean,paleoarchean,fz38a59,
-Eoarchean,eoarchean,fz38a59,
-Quaternary,quaternary,lb7hu27,
-Neogene,neogene,lb7hu27,
-Paleogene,paleogene,lb7hu27,
-Cretaceous,cretaceous,xu87d35,
-Jurassic,jurassic,xu87d35,
-Triassic,triassic,xu87d35,
-Permian,permian,vh16g23,
-Carboniferous,carboniferous,vh16g23,
-Pennsylvanian,pennsylvanian,vh16g23,
-Mississippian,mississippian,vh16g23,
-Devonian,devonian,vh16g23,
-Silurian,silurian,vh16g23,
-Ordovician,ordovician,vh16g23,
-Cambrian,cambrian,vh16g23,
-Ediacaran,ediacaran,yx4re06,
-Crygenian,crygenian,yx4re06,
-Tonian,tonian,yx4re06,
-Stenian,stenian,yx4re06,
-Ectasian,ectasian,yx4re06,
-Calymmian,calymmian,yx4re06,
-Statherian,statherian,yx4re06,
-Orosirian,orosirian,yx4re06,
-Rhyacian,rhyacian,yx4re06,
-SIderian,siderian,yx4re06,
-Holocene,holocene,vd9wt91,
-Pleistocene,pleistocene,vd9wt91,
-Pliocene,pliocene,sw9pw60,0
-Miocene,miocene,sw9pw60,1
-Oligocene,oligocene,li0is11,
-Eocene,eocene,li0is11,
-Paleocene,paleocene,li0is11,
-Late,late,ns6qv42,
-Middle,middle,ns6qv42,
-Early,early,ns6qv42,
-Yes,yes,hz9zw76,
-No,no,hz9zw76,
-intact rock,intact_rock,jq8qd30,
-fragmented rock,fragmented_roc,jq8qd30,
-sediment,sediment,jq8qd30,
-other,other,jq8qd30,
-fabric / microstructure,fabric___micro,to0mv13,0
-petrology,petrology,to0mv13,1
-geochronology,geochronology,to0mv13,2
-geochemistry,geochemistry,to0mv13,3
-other,other,to0mv13,4

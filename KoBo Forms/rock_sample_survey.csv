@@ -1,0 +1,15 @@
+name,type,label,required,hint,relevant,constraint,constraint_message
+sample_id_name,text,Sample specific ID / Name,true,,,,
+oriented_sample,select_one hz9zw76,Oriented Sample,false,,,,
+sample_orientation_strike,integer,Sample Orientation Strike,true,What's the strike of orientation mark / surface?,${oriented_sample} = 'yes',. <= 360 and . >= 0,Strike must be between 0-360.
+sample_orientation_dip,integer,Sample Orientation Dip,true,What's the dip of orientation mark / surface?,${oriented_sample} = 'yes',. >= 0 and . <= 90,Dip must be between 0-90.
+material_type,select_one jq8qd30,Material Type,true,,,,
+Other_Material_Type,text,Other Material Type,true,,${material_type} = 'other',,
+material_details,note,Material Details,false,,${material_type} != '',,
+sample_size_cm,decimal,Sample Size (cm),false,,,,
+main_sampling_purpose,select_one to0mv13,Main Sampling Purpose,true,,,,
+sample_description,note,Sample Description,false,,,,
+other_comments_about_sampling,note,Other Comments About Sampling,false,,,,
+inferred_age_of_sample_ma,decimal,Inferred Age of Sample (Ma),false,,,,
+start,start,,,,,,
+end,end,,,,,,

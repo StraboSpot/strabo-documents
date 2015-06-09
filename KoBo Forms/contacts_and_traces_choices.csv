@@ -4,9 +4,9 @@ intrusive,intrusive,1,lx9ax28
 metamorphic,metamorphic,2,lx9ax28
 fault,fault,3,lx9ax28
 shear zone,shear_zone,4,lx9ax28
-fold trace,option_11,5,lx9ax28
+fold trace,fold_trace,5,lx9ax28
 marker layer,marker_layer,6,lx9ax28
-edge of mapping,edge_of_mappin,7,lx9ax28
+edge of mapping,map_edge,7,lx9ax28
 temporary,temporary,8,lx9ax28
 unknown,unknown,9,lx9ax28
 other,other,10,lx9ax28
@@ -26,13 +26,13 @@ pluton,pluton,2,cj4zw02
 migmatite,migmatite,3,cj4zw02
 injectite,injectite,4,cj4zw02
 unknown,unknown,5,cj4zw02
-between different metamorphic rocks,between_two_di,0,pb5wo52
+between different metamorphic rocks,btwn_2_dif_mm,0,pb5wo52
 isograd,isograd,2,pb5wo52
 other,other,,pb5wo52
 not specified,not_specified,0,ku2gk10
 strike-slip,strike_slip,1,ku2gk10
 dip-slip,dip_slip,2,ku2gk10
-oblique,oblique,3,ku2gk10
+oblique-slip,oblique,3,ku2gk10
 not specified,not_specified,0,ww1yf84
 dextral,dextral,1,ww1yf84
 sinistral,sinistral,2,ww1yf84
@@ -40,6 +40,7 @@ not specified,not_specified,0,dr9xt23
 normal,normal,1,dr9xt23
 reverse,reverse,2,dr9xt23
 thrust,thrust,3,dr9xt23
+low-angle normal,low_angle_norm,,dr9xt23
 not specified,not_specified,0,os1df47
 dextral reverse,dextral_reverse,1,os1df47
 dextral normal,dextral_normal,2,os1df47
@@ -51,37 +52,37 @@ reverse,reverse,,os1df47
 normal,normal,,os1df47
 not specified,not_specified,0,kt81l04
 offset marker,offset,1,kt81l04
-directional indicators,directional_indicator,2,kt81l04
+directional indicators,direct_indicat,2,kt81l04
 not specified,not_specified,,gs8tm04
 bedding,bedding,,gs8tm04
 intrusion,intrusion,,gs8tm04
-metamorphic foliation,metamorphic_fo,,gs8tm04
-compositional banding,compositional_,,gs8tm04
-geomorphic feature,geomorphic_fea,,gs8tm04
+metamorphic foliation,foliation,,gs8tm04
+compositional banding,comp_banding,,gs8tm04
+geomorphic feature,geomorph_feat,,gs8tm04
 other,other,,gs8tm04
 not specified,not_specified,0,uh1mv47
 bedding,bedding,1,uh1mv47
 intrusion,intrusion,2,uh1mv47
-metamorphic foliation,metamorphic_foliation,3,uh1mv47
-compositional banding,compositional_banding,4,uh1mv47
-other,other_marker,6,uh1mv47
+metamorphic foliation,foliation,3,uh1mv47
+compositional banding,comp_banding,4,uh1mv47
+other,other,6,uh1mv47
 Riedel shears,riedel_shears,0,xd2fb20
 gouge fill,gouge_fill,1,xd2fb20
-crescentic fractures,crescentic_fractures,2,xd2fb20
+crescentic fractures,cresc_fracture,2,xd2fb20
 slickenfibers,slickenfibers,3,xd2fb20
 tension gashes,tension_gashes,4,xd2fb20
-oblique foliation,oblique_foliation,5,xd2fb20
+oblique foliation,oblique_fol,5,xd2fb20
 drag folds,drag_folds,6,xd2fb20
-asymmetric folds,asymmetric_folds,7,xd2fb20
+asymmetric folds,asymm_folds,7,xd2fb20
 rotated clasts,rotated_clasts,8,xd2fb20
 domino clasts,domino_clasts,9,xd2fb20
 other,other,10,xd2fb20
-oblique foliation,oblique_foliat,,go8zy48
+oblique foliation,oblique_fol,,go8zy48
 drag,drag,,go8zy48
-asymmetric folds,asymmetric_fol,,go8zy48
+asymmetric folds,asymm_fol,,go8zy48
 domino texture,domino_texture,,go8zy48
 rotated clasts,rotated_clasts,,go8zy48
-rotated porphyroblasts,rotated_porphy,,go8zy48
+rotated porphyroblasts,rotated_porph,,go8zy48
 delta clasts,delta_clasts,,go8zy48
 S-C fabric,s_c_fabric,,go8zy48
 S-C' fabric,s_c__fabric,,go8zy48
@@ -89,11 +90,11 @@ C-C' fabric,c_c__fabric,,go8zy48
 mica fish,mica_fish,,go8zy48
 boudinage,boudinage,,go8zy48
 other,other,,go8zy48
-This is a list of rock units / descriptions user has made,this_is_a_list,,fq8rt60
-More in the list of rock units / descriptions user has made,more_in_the_li,,fq8rt60
+This is a list of rock units / descriptions user has made,rock_unit_list,,fq8rt60
+More in the list of rock units / descriptions user has made,more_unit_list,,fq8rt60
 not specified,not_specified,,fq8rt60
-This is a list of rock units / descriptions user has made,this_is_a_list,,kw6tp41
-More in the list of rock units / descriptions user has made,more_in_the_li,,kw6tp41
+This is a list of rock units / descriptions user has made,rock_unit_list,,kw6tp41
+More in the list of rock units / descriptions user has made,more_unit_list,,kw6tp41
 not specified,not_specified,,kw6tp41
 syncline,syncline,0,wg6ry31
 anticline,anticline,1,wg6ry31
@@ -122,7 +123,7 @@ open   (120º–70º),open,,ao3ks66
 close   (70º–30º),close,,ao3ks66
 tight   (30º–10º),tight,,ao3ks66
 isoclinal   (10º–0º),isoclinal,,ao3ks66
-None,option_9,0,iu9ug45
+None,none,0,iu9ug45
 North,north,1,iu9ug45
 NE,ne,2,iu9ug45
 East,east,3,iu9ug45
@@ -134,8 +135,8 @@ NW,nw,8,iu9ug45
 known,known,,wb5nf41
 approximate,approximate,,wb5nf41
 inferred,inferred,,wb5nf41
-questionable approximate,questionable_a,,wb5nf41
-questionable inferred,questionable_i,,wb5nf41
+questionable approximate,approximate(?),,wb5nf41
+questionable inferred,inferred(?),,wb5nf41
 concealed,concealed,,wb5nf41
 sharp,sharp,,rd1pp06
 gradational,gradational,,rd1pp06
