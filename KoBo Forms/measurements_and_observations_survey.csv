@@ -53,7 +53,7 @@ measured_line,acknowledge,MEASURED LINE?,false,,,,,,
 trend,integer,Trend,true,Azimuth in degrees,${measured_line} != '',. >= 0 and . <= 360,Trend must be between 0-360.,,
 plunge,integer,Plunge,true,,${measured_line} != '',. >= 0 and . <= 90,Plunge must be between 0-90.,,
 Rake,integer,Rake,false,angle from strike on plane (0-180)?,${measured_line} != '',,,,
-rake_calculated,acknowledge,Rake Calculated?,true,"Was the rake calculated, instead of measured?",${measured_line} != '',,,,
+rake_calculated,acknowledge,Rake Calculated?,false,"Was the rake calculated, instead of measured?",${measured_line} != '',,,,
 linear_orientation_quality,select_one gl2mf38,Linear Orientation Quality,true,How accurate is the measurement? Irregular = curviplanar.,${measured_line} != '',,,accurate,horizontal-compact
 linear_measurement_quality,select_one xn9nf56,Linear Measurement Quality,true,,${measured_line} != '',,,3,likert
 linear_feature_type,select_one lg1ol67,Linear Feature Type,true,,${measured_line} != '',,,,horizontal
