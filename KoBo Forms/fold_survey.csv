@@ -1,9 +1,0 @@
-name,type,label,required,hint
-approx_amplitude,select_one zq9sr00,Approximate Amplitude Scale of Related Folding,true,
-fold_geometry,select_one wg6ry31,Dominant Fold Geometry,true,What is the shape of the fold when looking down-plunge?
-fold_shape,select_one fa6tb91,Dominant Fold Shape,true,
-fold_attitude,select_one iq4bx64,Dominant Fold Attitude,true,
-tightness,select_one ao3ks66,Tightness / Interlimb Angle,true,
-vergence,select_one iu9ug45,Vergence,true,Approximate vergence dold asymmetry or other...irection from f
-start,start,,,
-end,end,,,

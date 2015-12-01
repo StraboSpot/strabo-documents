@@ -1,9 +1,0 @@
-name,type,label,required,hint,relevant,default
-group_name,text,Group Label,true,,,
-group_relationship,select_multiple xn4xv87,What do elements of this group have in common?,true,How are these data similar?,,
-larger_structure_is_a,select_one lr0jp76,Larger Structure is a,true,"(e.g., fold, fault, shear zone, intrusive body, etc.)",,
-age_details,text,Age Details,true,Do you know the age?,"selected(${group_relationship}, 'age')",not specified
-new_similarity_for_grouping,text,Define New Similarity for Grouping,true,How are these data similar that they belong in a group together?,"selected(${group_relationship}, 'new')",not specified
-group_notes,note,Notes / Comments About the Group,false,,,
-start,start,,,,,
-end,end,,,,,
